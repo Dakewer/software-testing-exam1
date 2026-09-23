@@ -7,6 +7,7 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f"Hi {name}! Bienvenido al sistema MicroRuta de renta de scooters")  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f"Hola, {name}, bienvenido a MicroRuta")  # Press Ctrl+F8 to toggle the breakpoint.
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
