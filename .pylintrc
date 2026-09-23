@@ -1,0 +1,34 @@
+[MASTER]
+# Directorios que pylint debe ignorar
+ignore=.git,.idea,__pycache__,.venv,venv
+
+# Número de procesos en paralelo (0 = auto-detectar)
+jobs=0
+
+[MESSAGES CONTROL]
+# Deshabilita mensajes que no aportan valor en un ejercicio académico corto.
+# Se documenta explícitamente el motivo de cada desactivación (regla 4 del examen).
+disable=
+    missing-module-docstring,
+    too-few-public-methods
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[BASIC]
+# snake_case para funciones y variables, siguiendo PEP 8
+function-naming-style=snake_case
+variable-naming-style=snake_case
+argument-naming-style=snake_case
+const-naming-style=UPPER_CASE
+
+[DESIGN]
+max-args=6
+max-locals=15
+max-branches=12
+max-returns=6
+
+[REPORTS]
+output-format=colorized
+score=yes
